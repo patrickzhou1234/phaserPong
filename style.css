@@ -1,0 +1,27 @@
+canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+p {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  position: absolute;
+  margin: 0;
+  color: white;
+  font-size: calc(2vw + 2vh);
+  z-index: 1000;
+}
+
+#leftscore {
+  left: 10vw;
+}
+
+#rightscore {
+  left: 90vw;
+}
